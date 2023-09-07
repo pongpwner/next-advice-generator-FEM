@@ -7,6 +7,7 @@ import Advice from "./components/advice"
 export default async function Home() {
   let response=await fetch('https://api.adviceslip.com/advice')
   let data = await response.json()
+ 
 
 
   

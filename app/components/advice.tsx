@@ -33,7 +33,7 @@ export default function Advice({sAdvice,sId}:adviceProps){
         
 
       </div>
-      <button onClick={handleClick} className='p-4 bg-green-400 rounded-full relative bottom-7'><Image src={dice} alt='dice'></Image></button>
+      <button onClick={handleClick} className='p-4 bg-green-400 rounded-full relative bottom-7 active:shadow-[0px_0px_10px_5px] active:shadow-emerald-400'><Image src={dice} alt='dice'></Image></button>
       </>
     
   )
